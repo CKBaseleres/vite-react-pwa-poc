@@ -14,11 +14,11 @@ function App() {
       "mac":"CkNOaZ8IDFC10A+QRmGWIMsqeqDS+2cxZsMJWqm7JIA=",
       "producer":"BBGR_FR002",
       "network":"SANTECLAIR",
-      // "secret":"oeWJgXcC9KUhnKNv",
+      "secret":"oeWJgXcC9KUhnKNv",
       "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
-    fetch('https://c10fbylsm0.execute-api.eu-west-1.amazonaws.com/v1/ecarte/orders/delivery', {
+    fetch('https://essilor-prd.apigee.net/eu_check_delivery_conformity/v1/ecarte/orders/delivery', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
