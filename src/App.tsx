@@ -14,7 +14,7 @@ function App() {
       "mac":"CkNOaZ8IDFC10A+QRmGWIMsqeqDS+2cxZsMJWqm7JIA=",
       "producer":"BBGR_FR002",
       "network":"SANTECLAIR",
-      "secret":"oeWJgXcC9KUhnKNv",
+      // "secret":"oeWJgXcC9KUhnKNv",
       "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
