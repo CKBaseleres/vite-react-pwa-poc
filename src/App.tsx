@@ -20,6 +20,7 @@ function App() {
     }
     fetch('https://essilor-prd.apigee.net/eu_check_delivery_conformity/v1/ecarte/orders/delivery', {
       method: 'POST',
+      mode: 'no-cors',
       headers: headers,
       body: JSON.stringify({
           "nm_facture": "210157326",
