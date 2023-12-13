@@ -8,7 +8,10 @@ function App() {
   
   useEffect(() => {
     const headers = {
-      "Content-Type":"application/json",
+      "Content-Type":"application/json, */*",
+      "Access-Control-Allow-Origin":"*",
+      "Access-Control-Allow-Methods":"GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Credentials":"true",
       "ts":"1574846576",
       "nonce":"ebcd9652-e5cc-42db-9537-bb40aaca62fa",
       "mac":"CkNOaZ8IDFC10A+QRmGWIMsqeqDS+2cxZsMJWqm7JIA=",
