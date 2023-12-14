@@ -8,10 +8,7 @@ function App() {
   
   useEffect(() => {
     const headers = {
-      "Content-Type":"application/json, */*",
-      "Access-Control-Allow-Origin":"*",
-      "Access-Control-Allow-Methods":"GET, POST, PUT, DELETE, OPTIONS",
-      "Access-Control-Allow-Credentials":"true",
+      "Content-Type":"application/json",
       "ts":"1574846576",
       "nonce":"ebcd9652-e5cc-42db-9537-bb40aaca62fa",
       "mac":"CkNOaZ8IDFC10A+QRmGWIMsqeqDS+2cxZsMJWqm7JIA=",
@@ -21,7 +18,7 @@ function App() {
       "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
-    fetch('https://essilor-prd.apigee.net/eu_check_delivery_conformity/v1/ecarte/orders/delivery', {
+    fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/ecarte/orders/delivery', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
