@@ -18,7 +18,7 @@ function App() {
       "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
-    fetch('https://essilor-prd.apigee.net/eu_check_delivery_conformity/v1/ecarte/orders/delivery', {
+    fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/ecarte/orders/delivery', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
