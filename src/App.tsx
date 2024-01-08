@@ -16,7 +16,8 @@ function App() {
       "network":"SANTECLAIR",
       "secret":"oeWJgXcC9KUhnKNv",
       "x-api-key":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
-      "showMac":"true"
+      "showMac":"true",
+      "Accept":"*/*"
     }
     fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/nep-reporting', {
       method: 'POST',
