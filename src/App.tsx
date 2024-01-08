@@ -11,7 +11,7 @@ function App() {
       "Content-Type":"application/json",
       "ts":"1574846576",
       "nonce":"ebcd9652-e5cc-42db-9537-bb40aaca62fa",
-      "mac":"CkNOaZ8IDFC10A+QRmGWIMsqeqDS+2cxZsMJWqm7JIA=",
+      "mac":"qbfwCEftqX/1+fQI91WCk+NqlZnvSgAcMhrF/tCc1Aw=",
       "producer":"BBGR_FR002",
       "network":"SANTECLAIR",
       "secret":"oeWJgXcC9KUhnKNv",
@@ -23,7 +23,7 @@ function App() {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
-        "store_ids": ["7717431"],
+        "store_ids": [7717431],
         "return_type": "base64"
     })
   })
