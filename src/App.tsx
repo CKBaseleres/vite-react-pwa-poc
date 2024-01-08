@@ -15,7 +15,7 @@ function App() {
       "producer":"BBGR_FR002",
       "network":"SANTECLAIR",
       "secret":"oeWJgXcC9KUhnKNv",
-      "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
+      "x-api-key":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
     fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/nep-reporting', {
