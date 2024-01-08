@@ -11,7 +11,7 @@ function App() {
       "Content-Type":"application/json",
       "ts":"1574846576",
       "nonce":"ebcd9652-e5cc-42db-9537-bb40aaca62fa",
-      "mac":"qbfwCEftqX/1+fQI91WCk+NqlZnvSgAcMhrF/tCc1Aw=",
+      "mac":"i9em/RYHFWZERdcOv0dMMLsAEZw1VmDTY7Ce1iPoYsM=",
       "producer":"BBGR_FR002",
       "network":"SANTECLAIR",
       "secret":"oeWJgXcC9KUhnKNv",
