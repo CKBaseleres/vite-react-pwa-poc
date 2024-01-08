@@ -19,7 +19,7 @@ function App() {
       "showMac":"true",
       "Accept":"*/*"
     }
-    fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/nep-reporting', {
+    fetch('https://essilor-int.apigee.net:443/v1/nep-reporting', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
