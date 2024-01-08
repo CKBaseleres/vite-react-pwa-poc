@@ -18,16 +18,12 @@ function App() {
       "x-apikey":"PnEoNwImT0uOLjrtPwge7EBglsMg02G4",
       "showMac":"true"
     }
-    fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/ecarte/orders/delivery', {
+    fetch('https://k4f6661dm9.execute-api.eu-west-1.amazonaws.com/v1/nep-reporting', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify({
-          "nm_facture": "210157326",
-          "bl_nos": [
-              "1109017", "1109094"
-          ],
-          "cd_comm": "7511496",
-          "invoice_date": "2021-09-20"
+        "store_ids": ["7717431"],
+        "return_type": "base64"
     })
   })
     .then(res => res.json())
